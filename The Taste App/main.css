@@ -1,0 +1,145 @@
+/*font-family: 'Coda', cursive;
+font-family: 'Heebo', sans-serif; */
+
+
+body
+{
+	margin: 0;
+	background-color: #d0ca33;
+	color: black;
+    font-family:'Heebo', sans-serif;
+    font-size: 28px;
+}
+
+a:link    { color: black; text-decoration: none; }
+a:visited { color: black; }
+a:active  { color: black; }
+a:hover   { color: white; }
+
+
+h1{
+    font-size:72px;
+    font-weight: 400;
+    text-align:center;
+    margin-top:20px;
+    margin-bottom:0px;
+}
+
+p{
+    font-family:'Roboto', sans-serif;
+    text-align:center;
+    margin-top:0px;
+    margin-bottom:25px;
+    letter-spacing:2px;
+    font-size:14px;
+    
+}
+
+#levels{
+    text-align:center;
+    margin-top:-20px;
+    margin-bottom:20px;
+}
+
+.levels{
+    display:inline;
+    font-family: 'Heebo', cursive;
+}
+
+.levels:hover{
+    
+}
+
+.board{
+    width:600px;
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center;
+}
+
+.card{
+    width:125px;
+    height:125px;
+    display:inline-block;
+    margin: 3px;
+    background-image:url("img/glownatastebw.png");
+    border:2px solid white;
+    border-radius: 4px;
+    cursor:pointer;
+    transition: all .3s ease-in-out;
+}
+
+.cardlev1{
+    width:125px;
+    height:125px;
+    display:inline-block;
+    margin: 3px;
+    background-image:url("img/glownatastebw.png");
+    border:2px solid white;
+    border-radius: 4px;
+    cursor:pointer;
+    transition: all .3s ease-in-out;
+    
+}
+
+.cardlev3{
+    width:125px;
+    height:125px;
+    display:inline-block;
+    margin: 3px;
+    background-image:url("img/glownatastebw.png");
+    border:2px solid white;
+    border-radius: 4px;
+    cursor:pointer;
+    transition: all .3s ease-in-out;
+    
+}
+
+
+
+.cardA .cardlev1A .cardlev3A{
+    width:125px;
+    height:125px;
+    display:inline-block;
+    margin: 3px;
+    border: 2px solid white;
+    border-radius: 4px;
+    cursor:default;
+    transition: all .3s ease-in-out;
+    
+}
+
+
+.card:hover{
+    background-image:url("img/glownataste1.png");
+    border: 2px solid white;
+}
+
+.cardlev1:hover{
+    background-image:url("img/glownataste1.png");
+    border: 2px solid white;
+}
+
+.cardlev3:hover{
+    background-image:url("img/glownataste1.png");
+    border: 2px solid white;
+}
+
+.score{
+    margin-top: 5px;
+    letter-spacing: 2px;
+}
+
+#congratulations{
+    margin-left:0px;
+    margin-right:0px;
+    padding-top:50px;
+}
+
+footer{
+    margin-top:50px;
+}
+
+hr {
+    border-color:black;
+}
